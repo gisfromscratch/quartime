@@ -1,0 +1,11 @@
+project 'militaryviewer.xcodeproj'
+
+target 'militaryviewer' do
+  pod 'ArcGIS-Runtime-SDK-macOS','100.0' 
+end
+target 'militaryviewerTests' do
+  pod 'ArcGIS-Runtime-SDK-macOS','100.0'
+end
+target 'militaryviewerUITests' do
+  pod 'ArcGIS-Runtime-SDK-macOS','100.0'
+end

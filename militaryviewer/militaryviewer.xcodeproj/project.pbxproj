@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E7B2AD84C7E14864401C0BD /* libPods-militaryviewerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBFB88171650073B8EEC995 /* libPods-militaryviewerUITests.a */; };
 		8B38FE411EBDA78F00DCF7BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38FE401EBDA78F00DCF7BE /* AppDelegate.swift */; };
 		8B38FE431EBDA78F00DCF7BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38FE421EBDA78F00DCF7BE /* ViewController.swift */; };
 		8B38FE451EBDA78F00DCF7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B38FE441EBDA78F00DCF7BE /* Assets.xcassets */; };
 		8B38FE481EBDA79000DCF7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B38FE461EBDA79000DCF7BE /* Main.storyboard */; };
 		8B38FE531EBDA79000DCF7BE /* militaryviewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38FE521EBDA79000DCF7BE /* militaryviewerTests.swift */; };
 		8B38FE5E1EBDA79000DCF7BE /* militaryviewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38FE5D1EBDA79000DCF7BE /* militaryviewerUITests.swift */; };
-		8B38FE6C1EBDAD0200DCF7BE /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B38FE6B1EBDAD0200DCF7BE /* ArcGIS.bundle */; };
+		970002BDEC9798E2C57960F8 /* libPods-militaryviewerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9847F51DC03F0E17F34D504 /* libPods-militaryviewerTests.a */; };
+		B980A493954F84EEF6B76988 /* libPods-militaryviewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF76EDF9836CFFFEDCDF4AED /* libPods-militaryviewer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B3D0E6FF38221C494748C09 /* Pods-militaryviewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-militaryviewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-militaryviewer/Pods-militaryviewer.release.xcconfig"; sourceTree = "<group>"; };
+		6B8173D4EA6173EBBF57C1E2 /* Pods-militaryviewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-militaryviewerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-militaryviewerUITests/Pods-militaryviewerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8B38FE3D1EBDA78F00DCF7BE /* militaryviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = militaryviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B38FE401EBDA78F00DCF7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B38FE421EBDA78F00DCF7BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +50,13 @@
 		8B38FE591EBDA79000DCF7BE /* militaryviewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = militaryviewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B38FE5D1EBDA79000DCF7BE /* militaryviewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = militaryviewerUITests.swift; sourceTree = "<group>"; };
 		8B38FE5F1EBDA79000DCF7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B38FE6B1EBDAD0200DCF7BE /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../../Library/SDKs/ArcGIS/macOS/Frameworks/Static/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
+		9CBFB88171650073B8EEC995 /* libPods-militaryviewerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-militaryviewerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA09BF24C216E727EE6F4378 /* Pods-militaryviewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-militaryviewerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-militaryviewerUITests/Pods-militaryviewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFF8905B2B071A89CD024877 /* Pods-militaryviewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-militaryviewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-militaryviewerTests/Pods-militaryviewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4A0E3BEF45095CDE7E1CEB0 /* Pods-militaryviewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-militaryviewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-militaryviewerTests/Pods-militaryviewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9847F51DC03F0E17F34D504 /* libPods-militaryviewerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-militaryviewerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB278FE10F8EA5542B02E34E /* Pods-militaryviewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-militaryviewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-militaryviewer/Pods-militaryviewer.debug.xcconfig"; sourceTree = "<group>"; };
+		EF76EDF9836CFFFEDCDF4AED /* libPods-militaryviewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-militaryviewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B980A493954F84EEF6B76988 /* libPods-militaryviewer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970002BDEC9798E2C57960F8 /* libPods-militaryviewerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,20 +80,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7B2AD84C7E14864401C0BD /* libPods-militaryviewerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41974FF23D616530307EE695 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB278FE10F8EA5542B02E34E /* Pods-militaryviewer.debug.xcconfig */,
+				2B3D0E6FF38221C494748C09 /* Pods-militaryviewer.release.xcconfig */,
+				C4A0E3BEF45095CDE7E1CEB0 /* Pods-militaryviewerTests.debug.xcconfig */,
+				BFF8905B2B071A89CD024877 /* Pods-militaryviewerTests.release.xcconfig */,
+				AA09BF24C216E727EE6F4378 /* Pods-militaryviewerUITests.debug.xcconfig */,
+				6B8173D4EA6173EBBF57C1E2 /* Pods-militaryviewerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83A5CCDCBFDC61FB773E86AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF76EDF9836CFFFEDCDF4AED /* libPods-militaryviewer.a */,
+				D9847F51DC03F0E17F34D504 /* libPods-militaryviewerTests.a */,
+				9CBFB88171650073B8EEC995 /* libPods-militaryviewerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B38FE341EBDA78E00DCF7BE = {
 			isa = PBXGroup;
 			children = (
-				8B38FE6B1EBDAD0200DCF7BE /* ArcGIS.bundle */,
 				8B38FE3F1EBDA78F00DCF7BE /* militaryviewer */,
 				8B38FE511EBDA79000DCF7BE /* militaryviewerTests */,
 				8B38FE5C1EBDA79000DCF7BE /* militaryviewerUITests */,
 				8B38FE3E1EBDA78F00DCF7BE /* Products */,
+				41974FF23D616530307EE695 /* Pods */,
+				83A5CCDCBFDC61FB773E86AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B38FE621EBDA79100DCF7BE /* Build configuration list for PBXNativeTarget "militaryviewer" */;
 			buildPhases = (
+				A889D14C44F99AB1D80B17D4 /* [CP] Check Pods Manifest.lock */,
 				8B38FE391EBDA78E00DCF7BE /* Sources */,
 				8B38FE3A1EBDA78E00DCF7BE /* Frameworks */,
 				8B38FE3B1EBDA78E00DCF7BE /* Resources */,
+				7B254B2323098798910CF496 /* [CP] Embed Pods Frameworks */,
+				58DAEB411B3C26E0C07B474B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B38FE651EBDA79100DCF7BE /* Build configuration list for PBXNativeTarget "militaryviewerTests" */;
 			buildPhases = (
+				4406DBBE24437F1774DC7FAA /* [CP] Check Pods Manifest.lock */,
 				8B38FE4A1EBDA79000DCF7BE /* Sources */,
 				8B38FE4B1EBDA79000DCF7BE /* Frameworks */,
 				8B38FE4C1EBDA79000DCF7BE /* Resources */,
+				CA2A7889C869FD8E32462103 /* [CP] Embed Pods Frameworks */,
+				9B40C5D92E8E597A33ED9399 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B38FE681EBDA79100DCF7BE /* Build configuration list for PBXNativeTarget "militaryviewerUITests" */;
 			buildPhases = (
+				D72C09E7EA66F9342943937E /* [CP] Check Pods Manifest.lock */,
 				8B38FE551EBDA79000DCF7BE /* Sources */,
 				8B38FE561EBDA79000DCF7BE /* Frameworks */,
 				8B38FE571EBDA79000DCF7BE /* Resources */,
+				F3E18B6EBBE365F3FCC3F696 /* [CP] Embed Pods Frameworks */,
+				0445C66472E0198F6ECD5815 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B38FE6C1EBDAD0200DCF7BE /* ArcGIS.bundle in Resources */,
 				8B38FE451EBDA78F00DCF7BE /* Assets.xcassets in Resources */,
 				8B38FE481EBDA79000DCF7BE /* Main.storyboard in Resources */,
 			);
@@ -253,6 +298,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0445C66472E0198F6ECD5815 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-militaryviewerUITests/Pods-militaryviewerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4406DBBE24437F1774DC7FAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58DAEB411B3C26E0C07B474B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-militaryviewer/Pods-militaryviewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B254B2323098798910CF496 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-militaryviewer/Pods-militaryviewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B40C5D92E8E597A33ED9399 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-militaryviewerTests/Pods-militaryviewerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A889D14C44F99AB1D80B17D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2A7889C869FD8E32462103 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-militaryviewerTests/Pods-militaryviewerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72C09E7EA66F9342943937E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E18B6EBBE365F3FCC3F696 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-militaryviewerUITests/Pods-militaryviewerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B38FE391EBDA78E00DCF7BE /* Sources */ = {
@@ -399,19 +582,16 @@
 		};
 		8B38FE631EBDA79100DCF7BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB278FE10F8EA5542B02E34E /* Pods-militaryviewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/macOS/Frameworks/Static/";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = militaryviewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					ArcGIS,
-					"-l",
-					"c++",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.militaryviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -420,19 +600,16 @@
 		};
 		8B38FE641EBDA79100DCF7BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3D0E6FF38221C494748C09 /* Pods-militaryviewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/macOS/Frameworks/Static/";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = militaryviewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					ArcGIS,
-					"-l",
-					"c++",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.militaryviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -441,6 +618,7 @@
 		};
 		8B38FE661EBDA79100DCF7BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A0E3BEF45095CDE7E1CEB0 /* Pods-militaryviewerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +634,7 @@
 		};
 		8B38FE671EBDA79100DCF7BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF8905B2B071A89CD024877 /* Pods-militaryviewerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +650,7 @@
 		};
 		8B38FE691EBDA79100DCF7BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA09BF24C216E727EE6F4378 /* Pods-militaryviewerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -485,6 +665,7 @@
 		};
 		8B38FE6A1EBDA79100DCF7BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8173D4EA6173EBBF57C1E2 /* Pods-militaryviewerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
