@@ -7,13 +7,18 @@
 //
 
 import Cocoa
+import ArcGIS
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var mapView: AGSMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Add a map to the map view
+        let map = AGSMap(basemap: AGSBasemap.topographic());
+        self.mapView.map = map;
     }
 
     override var representedObject: Any? {
