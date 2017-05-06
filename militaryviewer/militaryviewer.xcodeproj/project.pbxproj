@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B38FE411EBDA78F00DCF7BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38FE401EBDA78F00DCF7BE /* AppDelegate.swift */; };
+		8B38FE431EBDA78F00DCF7BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38FE421EBDA78F00DCF7BE /* ViewController.swift */; };
+		8B38FE451EBDA78F00DCF7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B38FE441EBDA78F00DCF7BE /* Assets.xcassets */; };
+		8B38FE481EBDA79000DCF7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B38FE461EBDA79000DCF7BE /* Main.storyboard */; };
+		8B38FE531EBDA79000DCF7BE /* militaryviewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38FE521EBDA79000DCF7BE /* militaryviewerTests.swift */; };
+		8B38FE5E1EBDA79000DCF7BE /* militaryviewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38FE5D1EBDA79000DCF7BE /* militaryviewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B38FE4F1EBDA79000DCF7BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B38FE351EBDA78E00DCF7BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B38FE3C1EBDA78E00DCF7BE;
+			remoteInfo = militaryviewer;
+		};
+		8B38FE5A1EBDA79000DCF7BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B38FE351EBDA78E00DCF7BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B38FE3C1EBDA78E00DCF7BE;
+			remoteInfo = militaryviewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B38FE3D1EBDA78F00DCF7BE /* militaryviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = militaryviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B38FE401EBDA78F00DCF7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B38FE421EBDA78F00DCF7BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B38FE441EBDA78F00DCF7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B38FE471EBDA79000DCF7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B38FE491EBDA79000DCF7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B38FE4E1EBDA79000DCF7BE /* militaryviewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = militaryviewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B38FE521EBDA79000DCF7BE /* militaryviewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = militaryviewerTests.swift; sourceTree = "<group>"; };
+		8B38FE541EBDA79000DCF7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B38FE591EBDA79000DCF7BE /* militaryviewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = militaryviewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B38FE5D1EBDA79000DCF7BE /* militaryviewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = militaryviewerUITests.swift; sourceTree = "<group>"; };
+		8B38FE5F1EBDA79000DCF7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B38FE3A1EBDA78E00DCF7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B38FE4B1EBDA79000DCF7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B38FE561EBDA79000DCF7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B38FE341EBDA78E00DCF7BE = {
+			isa = PBXGroup;
+			children = (
+				8B38FE3F1EBDA78F00DCF7BE /* militaryviewer */,
+				8B38FE511EBDA79000DCF7BE /* militaryviewerTests */,
+				8B38FE5C1EBDA79000DCF7BE /* militaryviewerUITests */,
+				8B38FE3E1EBDA78F00DCF7BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B38FE3E1EBDA78F00DCF7BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B38FE3D1EBDA78F00DCF7BE /* militaryviewer.app */,
+				8B38FE4E1EBDA79000DCF7BE /* militaryviewerTests.xctest */,
+				8B38FE591EBDA79000DCF7BE /* militaryviewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B38FE3F1EBDA78F00DCF7BE /* militaryviewer */ = {
+			isa = PBXGroup;
+			children = (
+				8B38FE401EBDA78F00DCF7BE /* AppDelegate.swift */,
+				8B38FE421EBDA78F00DCF7BE /* ViewController.swift */,
+				8B38FE441EBDA78F00DCF7BE /* Assets.xcassets */,
+				8B38FE461EBDA79000DCF7BE /* Main.storyboard */,
+				8B38FE491EBDA79000DCF7BE /* Info.plist */,
+			);
+			path = militaryviewer;
+			sourceTree = "<group>";
+		};
+		8B38FE511EBDA79000DCF7BE /* militaryviewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B38FE521EBDA79000DCF7BE /* militaryviewerTests.swift */,
+				8B38FE541EBDA79000DCF7BE /* Info.plist */,
+			);
+			path = militaryviewerTests;
+			sourceTree = "<group>";
+		};
+		8B38FE5C1EBDA79000DCF7BE /* militaryviewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B38FE5D1EBDA79000DCF7BE /* militaryviewerUITests.swift */,
+				8B38FE5F1EBDA79000DCF7BE /* Info.plist */,
+			);
+			path = militaryviewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B38FE3C1EBDA78E00DCF7BE /* militaryviewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B38FE621EBDA79100DCF7BE /* Build configuration list for PBXNativeTarget "militaryviewer" */;
+			buildPhases = (
+				8B38FE391EBDA78E00DCF7BE /* Sources */,
+				8B38FE3A1EBDA78E00DCF7BE /* Frameworks */,
+				8B38FE3B1EBDA78E00DCF7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = militaryviewer;
+			productName = militaryviewer;
+			productReference = 8B38FE3D1EBDA78F00DCF7BE /* militaryviewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B38FE4D1EBDA79000DCF7BE /* militaryviewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B38FE651EBDA79100DCF7BE /* Build configuration list for PBXNativeTarget "militaryviewerTests" */;
+			buildPhases = (
+				8B38FE4A1EBDA79000DCF7BE /* Sources */,
+				8B38FE4B1EBDA79000DCF7BE /* Frameworks */,
+				8B38FE4C1EBDA79000DCF7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B38FE501EBDA79000DCF7BE /* PBXTargetDependency */,
+			);
+			name = militaryviewerTests;
+			productName = militaryviewerTests;
+			productReference = 8B38FE4E1EBDA79000DCF7BE /* militaryviewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B38FE581EBDA79000DCF7BE /* militaryviewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B38FE681EBDA79100DCF7BE /* Build configuration list for PBXNativeTarget "militaryviewerUITests" */;
+			buildPhases = (
+				8B38FE551EBDA79000DCF7BE /* Sources */,
+				8B38FE561EBDA79000DCF7BE /* Frameworks */,
+				8B38FE571EBDA79000DCF7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B38FE5B1EBDA79000DCF7BE /* PBXTargetDependency */,
+			);
+			name = militaryviewerUITests;
+			productName = militaryviewerUITests;
+			productReference = 8B38FE591EBDA79000DCF7BE /* militaryviewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B38FE351EBDA78E00DCF7BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Developer;
+				TargetAttributes = {
+					8B38FE3C1EBDA78E00DCF7BE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8B38FE4D1EBDA79000DCF7BE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B38FE3C1EBDA78E00DCF7BE;
+					};
+					8B38FE581EBDA79000DCF7BE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B38FE3C1EBDA78E00DCF7BE;
+					};
+				};
+			};
+			buildConfigurationList = 8B38FE381EBDA78E00DCF7BE /* Build configuration list for PBXProject "militaryviewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B38FE341EBDA78E00DCF7BE;
+			productRefGroup = 8B38FE3E1EBDA78F00DCF7BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B38FE3C1EBDA78E00DCF7BE /* militaryviewer */,
+				8B38FE4D1EBDA79000DCF7BE /* militaryviewerTests */,
+				8B38FE581EBDA79000DCF7BE /* militaryviewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B38FE3B1EBDA78E00DCF7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B38FE451EBDA78F00DCF7BE /* Assets.xcassets in Resources */,
+				8B38FE481EBDA79000DCF7BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B38FE4C1EBDA79000DCF7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B38FE571EBDA79000DCF7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B38FE391EBDA78E00DCF7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B38FE431EBDA78F00DCF7BE /* ViewController.swift in Sources */,
+				8B38FE411EBDA78F00DCF7BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B38FE4A1EBDA79000DCF7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B38FE531EBDA79000DCF7BE /* militaryviewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B38FE551EBDA79000DCF7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B38FE5E1EBDA79000DCF7BE /* militaryviewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B38FE501EBDA79000DCF7BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B38FE3C1EBDA78E00DCF7BE /* militaryviewer */;
+			targetProxy = 8B38FE4F1EBDA79000DCF7BE /* PBXContainerItemProxy */;
+		};
+		8B38FE5B1EBDA79000DCF7BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B38FE3C1EBDA78E00DCF7BE /* militaryviewer */;
+			targetProxy = 8B38FE5A1EBDA79000DCF7BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B38FE461EBDA79000DCF7BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B38FE471EBDA79000DCF7BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B38FE601EBDA79100DCF7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B38FE611EBDA79100DCF7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		8B38FE631EBDA79100DCF7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = militaryviewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.militaryviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8B38FE641EBDA79100DCF7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = militaryviewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.militaryviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8B38FE661EBDA79100DCF7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = militaryviewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.militaryviewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/militaryviewer.app/Contents/MacOS/militaryviewer";
+			};
+			name = Debug;
+		};
+		8B38FE671EBDA79100DCF7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = militaryviewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.militaryviewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/militaryviewer.app/Contents/MacOS/militaryviewer";
+			};
+			name = Release;
+		};
+		8B38FE691EBDA79100DCF7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = militaryviewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.militaryviewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = militaryviewer;
+			};
+			name = Debug;
+		};
+		8B38FE6A1EBDA79100DCF7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = militaryviewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.militaryviewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = militaryviewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B38FE381EBDA78E00DCF7BE /* Build configuration list for PBXProject "militaryviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B38FE601EBDA79100DCF7BE /* Debug */,
+				8B38FE611EBDA79100DCF7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B38FE621EBDA79100DCF7BE /* Build configuration list for PBXNativeTarget "militaryviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B38FE631EBDA79100DCF7BE /* Debug */,
+				8B38FE641EBDA79100DCF7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B38FE651EBDA79100DCF7BE /* Build configuration list for PBXNativeTarget "militaryviewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B38FE661EBDA79100DCF7BE /* Debug */,
+				8B38FE671EBDA79100DCF7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B38FE681EBDA79100DCF7BE /* Build configuration list for PBXNativeTarget "militaryviewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B38FE691EBDA79100DCF7BE /* Debug */,
+				8B38FE6A1EBDA79100DCF7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B38FE351EBDA78E00DCF7BE /* Project object */;
+}
